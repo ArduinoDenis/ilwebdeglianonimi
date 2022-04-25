@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px){
+/* corpo del sito */
+body{
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Roboto Serif', serif;
+}
+/* setto il tag header - modifiche anche alla scritta logo */
+header{
+    background-color: goldenrod;
+    color: #15ff15;
+    padding: 3px;
+}
+/* setto la classe logo */
+.logo{
+    text-align: left;
+}
+.testo{
+    text-align: right;
+}
+/* zona dei pulsanti con link */
+nav{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+/* setto il tag nav,ul */
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+/* setto il tag nav,ul,li */
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+/* setto il tag nav,ul,li,hover - passaggio del mouse */
+nav ul li:hover{
+    background-color: #35c8dba4;
+}
+/* setto il tag nav,ul,li,a */
+nav ul li a{
+    color: #00ff00;
+    text-decoration: none;
+}
+
+}

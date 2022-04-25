@@ -1,0 +1,91 @@
+/* reset css */
+*{
+    padding: 0%;
+}
+/* corpo del sito */
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-image: url(../images/sfondo1.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+/* setto il tag header - modifiche anche alla scritta il Blog Degli Anonimi */
+header{
+    background-color: #d8a20e;
+    color: #15ffe0;
+    padding: 3px;
+}
+/* setto due tipi di tag */
+header h2, header span{
+    display: inline-block;
+}
+/* setto la classe home */
+.home{
+    font-size: 200%;
+}
+/* setto la classe nota */
+.avviso{
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-size: 150%;
+}
+/* setto la classe avviso e il tag B */
+.avviso b{
+    color: #0127ff;
+}
+/* zona dei pulsanti con link */
+nav{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+/* setto il tag nav,ul */
+nav ul{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Russo One', sans-serif;
+}
+/* setto il tag nav,ul,li */
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+/* setto il tag nav,ul,li,hover - passaggio del mouse */
+nav ul li:hover{
+    background-color: #ff0000;
+}
+/* setto il tag nav,ul,li,a */
+nav ul li a{
+    color: #e5ff00;
+    text-decoration: none;
+}
+/* setto la classe sfondo */
+.sfondo{
+    background-image: url(../images/logo_blog.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Russo One', sans-serif;
+}
+
+/* setto la classe tasto */
+.tasto{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 200px;
+    padding: 15px;
+    margin: 10px;
+}
+/* setto la classe tasto,hover - passaggio del mouse */
+.tasto:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: black;
+}

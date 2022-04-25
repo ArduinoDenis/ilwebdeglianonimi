@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tag iniziali-->
+    <title>il web degli anonimi</title>
+    <meta name="author" content="ArduinoDenis">
+    <meta name="description" content="questo e&grave; un sitoweb di ArduinoDenis">
+    <meta name="keyword" content="italiano, sitoweb">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--inizio del sito-->
+    <header>
+        <img src="./images/logo2.png" alt="Logo" class="logo1" width="auto" height="auto" align=center>
+        <h2 class="logo">il web degli anonimi</h2>
+        <span class="nota">
+            <b>Questo e&grave; creato e sviluppato Da ArduinoDenis</b>
+        </span>
+        <h3 id="utente"></h3>
+        <script src="./JS/inizializza_sito.js"></script>
+    </header>
+    <!--inserisco i pulsanti-->
+    <nav>
+        <a href="javascript:void(0)" id="mobilemenu" onclick="toggle()">&#9776;</a>
+        <ul id="menu">
+            <li><a href="index.html">Home - ricarica pagina</a></li>
+            <li><a href="./Pages/blog.html" target="_blank">Blog</a></li>
+            <li><a href="./Pages/chisiamo.html" target="_blank">chi siamo</a></li>
+       <!-- <li><a href="./Pages/contattaci.html">contattaci</a></li> -->
+        </ul>
+    </nav>
+    <!--schermata del chi siamo-->
+    <div class="homeheader">
+        <div class="labelbar">
+            <h1>ti presentiamo questo nuovo progetto</h1>
+            <h3>se stai cercando software li trovi qui da noi</h3>
+            <a href="./Pages/chisiamo.html" class="tasto">Clicca Qui</a>
+
+        </div>
+    </div>
+    <div id="boxes">
+    <!--schermata dello staff-->
+    <div class="card">
+        <h2>Staff 24/7</h2>
+        <p>il nostro staff sar&agrave; sempre a tua disposizione non esitare a contattarci!</p>
+    </div>
+    <!--schermata del chi siamo-->
+    <div class="card">
+        <h2>Chi siamo</h2>
+        <p>siamo un team che adoriamo il web open-source</p>
+    </div>
+    </div>
+    <!--schermata zona staff Admin-->
+    <div id="staff">
+        <h2>il nostro staff</h2>
+    <div class="staffcard">
+        <img src="./images/staff.png" alt="foto dello staff"/>
+    <div>
+        <h4>ArduinoDenis</h4> 
+        <span>Proprietario</span>
+    </div>
+    </div>
+    <!--schermata zona staff dipendenti-->
+    <div class="staffcard">
+        <img src="./images/marisa.png" alt="foto dello staff"/>
+    <div>
+        <h4>Marisa</h4> 
+        <span>Segretario</span>
+        <p>Scrittrice - Vincitrice Nobel per il libro "La virtù della condivisione: Quel che è tuo, adesso è mio"</p>
+    </div>
+    </div>
+    <div class="staffcard">
+        <img src="./images/staff.png" alt="foto dello staff"/>
+    <div>
+        <h4>Gianfraschio</h4> 
+        <span>Moderatore dei commenti</span>
+    </div>
+    </div>
+    <div class="staffcard">
+        <img src="./images/gianpiertolda.png" alt="foto dello staff"/>
+    <div>
+        <h4>Gian PierTolda</h4> 
+        <span>dipendente</span>
+        <p>Vecchia in Pensione</p>
+    </div>
+    </div>
+    <div class="staffcard">
+        <img src="./images/mimo.png" alt="foto dello staff"/>
+    <div>
+        <h4>il mimo</h4> 
+        <span>dipendente</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- zona dei social-->
+    <footer>
+        <h2>Seguici Sui Social</h2>
+        <a href="https://github.com/ArduinoDenis/ilwebdeglianonimi" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.instagram.com/arduino_denis/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCwSLXFEslfOoMhysiM2nymA?sub_confirmation=1" target="_blank" class="fa fa-youtube"></a>
+        <h2 class="logo">il web degli anonimi</h2>
+        </footer>
+    <div class="copyright"> Copyright – il web degli anonimi &copy; 2021-2022 Tutti i diritti riservati</div>
+</body>
+<script src="./JS/menu-mobile.js"></script>
+</html>

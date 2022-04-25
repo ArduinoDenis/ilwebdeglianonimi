@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    header{
+        text-align: center;
+    }
+    .avviso{
+        float: none;
+        position: relative;
+        margin-top: 2%;
+        margin-right: 15px;
+    }
+    header b {
+        float: none;
+    }
+}

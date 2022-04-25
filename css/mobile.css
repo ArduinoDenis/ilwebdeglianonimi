@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    header{
+        text-align: center;
+    }
+    .nota{
+        float: none;
+        margin: 10px;
+    }
+    .homeheader h3{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    .homeheader{
+        height: 500px;
+    }
+    .tasto{
+        display: block;
+    }
+    nav{
+        padding: 5px;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul{
+        margin-top: 10px;
+    }
+    #mobilemenu{
+        text-decoration: none;
+        color: white;
+        padding: 3px;
+        font-size: 200%;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+
+}
