@@ -89,3 +89,33 @@ nav ul li a{
     color: black;
     border-color: black;
 }
+/* setto la classe blog */
+.blog{
+    background-color: #4fa1b0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+    box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+}
+/* setto la classe blog,hover - passaggio del mouse */
+.blog:hover{
+    background-color: #4fa1b0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+    box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.65);
+}

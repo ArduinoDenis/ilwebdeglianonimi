@@ -155,10 +155,29 @@ nav ul li a{
     -moz-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
     box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
 }
+/* setto la classe descrizione_marisa */
+.descrizione_marisa{
+    margin: 6px;
+    font-size: 12px;
+}
+/* setto la classe descrizione_marisa e il tag h4 */
+.descrizione_marisa h4{
+    margin: 6px;
+    font-size: 12px;
+}
+/* setto la classe descrizione_gianpiertolda */
+.descrizione_gianpiertolda{
+    margin: 6px;
+    font-size: 12px;
+}
+/* setto la classe descrizione_gianpiertolda e il tag h4 */
+.descrizione_gianpiertolda h4{
+    margin: 6px;
+    font-size: 12px;
+}
 /* setto la classe staffcard - modifica foto */
 .staffcard img{
     width: 100%;
-
 }
 /* setto la classe staffcard e il tag div */
 .staffcard div{
