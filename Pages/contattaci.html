@@ -1,100 +1,58 @@
 <html>
   <head>
-
-    
-    
-    <script src="https://arduinodenis.github.io/ilwebdeglianonimi/Pages/contattaci.html"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tag iniziali-->
+    <title>il web degli anonimi - contattaci</title>
+    <meta name="author" content="ArduinoDenis">
+    <meta name="description" content="questo e&grave; un sitoweb di ArduinoDenis">
+    <meta name="keyword" content="italiano, sitoweb">
     <link rel="shortcut icon" href="../images/logo.png">
-    
-        <style type="text/css">form {
- font-family: Arial, Helvetica, sans-serif;
-}
-label, input[type=text], textarea {
- display: block;
- box-sizing: border-box;
- width: 100%;
-}
-input[type=text], textarea {
- padding: 10px;
- border: 1px solid #CCC;
- border-radius: 3px;
- box-sizing: border-box;
- margin-top: 5px;
- margin-bottom: 15px;
- resize: vertical;
-}
-
-input[type=submit] {
- background-color: #4CAF50;
- color: #FFF;
- padding: 10px 20px;
- border: none;
- border-radius: 3px;
- cursor: pointer;
-}
-
-input[type=submit]:hover {
- background-color: #45a049;
-}
-
-nav ul li a{
-  text-decoration: none;
-}
-</style>
-        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/contattaci.css">
+    <!-- css mobile-->
+    <link rel="stylesheet" href="">
+    <!-- fine css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
   </head>
   <body>
-    
-
-   <!-- <form name="formmail" method="post" action="#" onsubmit="return controlloForm()">-->
-
- <input type="hidden" name="successo" value="https://arduinodenis.github.io/ilwebdeglianonimi/Pages/contattaci.html">
-
- <label for="nome">Nome e Cognome</label>
- <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
-
- <label for="email">Email</label>
- <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
-
- <label for="tel">Telefono</label>
- <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
-
- <label for="msg">Messaggio</label>
- <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
-
- <input type="submit" value="Invia Richiesta">
-
-</form>
-        <script>function verificaEmail(email) {
- var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
- return re.test(email);
-}
-
-function controlloForm() {
- var nome = document.forms["formmail"]["nome"].value;
- var email = document.forms["formmail"]["email"].value;
- var tel = document.forms["formmail"]["tel"].value;
- var msg = document.forms["formmail"]["msg"].value;
-
- if (nome == "" || email == "" || msg == "") {
- alert("I campi Nome, Email e Messaggio sono obbligatori!");
- return false;
- }
- else if (verificaEmail(email) !== true) {
- alert("L'indirizzo email non sembra corretto!");
- return false; 
- }else{
- return true;
- }
-}</script>
-
+    <!--inizio del sito-->
+    <header>
+      <img src="../images/logo2.png" alt="Logo" class="logo1" width="auto" height="auto" align=center>
+      <h2 class="logo">il web degli anonimi - contattaci</h2>
+      <span class="nota">
+          <b>Questo e&grave; creato e sviluppato Da ArduinoDenis</b>
+      </span>
+    </header>
+    <!--inserisco i pulsanti-->
     <nav>
       <ul id="menu">
-          <li><a href="../index.html">torna alla Home </a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="contattaci.html">contattaci - ricarica pagina</a></li>
-         <li><a href="./chisiamo.html">chi siamo</a></li>
-      </ul>
+      <li><a href="../index.html">torna alla Home </a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="contattaci.html">contattaci - ricarica pagina</a></li>
+      <li><a href="./chisiamo.html">chi siamo</a></li>
+    </ul>
   </nav>
-  </body>
+  <!--schermata del chi siamo-->
+      <div class="homeheader">
+        <div class="labelbar">
+          <h1>se vuoi contattaci sei nella pagina giusta</h1>
+          <h3>se hai bisogno di contattaci premi il pulsante qui sotto</h3>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScO5cSGMUi2DdffT-1ZGSTBBrZPvc_NSfAaEPkwYnPfYNGjtg/viewform" class="pulsante">Clicca Qui</a>
+        </div>
+      </div>
+      <!-- zona dei social-->
+    <footer>
+      <h2>Seguici Sui Social</h2>
+      <a href="https://github.com/ArduinoDenis/ilwebdeglianonimi" target="_blank" class="fa fa-github"></a>
+      <a href="https://www.instagram.com/arduino_denis/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/channel/UCwSLXFEslfOoMhysiM2nymA?sub_confirmation=1" target="_blank" class="fa fa-youtube"></a>
+      <h2 class="logo">il web degli anonimi</h2>
+      </footer>
+  <div class="copyright"> Copyright – il web degli anonimi &copy; 2021-2022 Tutti i diritti riservati</div>
+</body>
 </html>

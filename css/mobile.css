@@ -6,6 +6,9 @@
         float: none;
         margin: 10px;
     }
+    .logo1{
+        max-width: 50%;
+    }
     .homeheader h3{
         width: 300px;
         margin: auto;
@@ -38,5 +41,4 @@
     #menu{
         display: none;
     }
-
 }

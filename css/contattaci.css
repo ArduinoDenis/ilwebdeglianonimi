@@ -1,0 +1,152 @@
+/* reset css */
+*{
+    padding: 0%;
+}
+/* corpo del sito */
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+    text-transform: uppercase;
+}
+/* setto il tag header - modifiche anche alla scritta logo */
+header{
+    background-color: #00a2ff;
+    color: #15ff15;
+    padding: 3px;
+}
+/* setto due tipi di tag */
+header h2, header span{
+    display: inline-block;
+}
+/* setto la classe logo */
+.logo{
+    font-size: 200%;
+}
+/* setto la classe logo1 */
+.logo1{
+    max-width: 6%;
+}
+/* setto la classe nota */
+.nota{
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-size: 121%;
+}
+/* setto la classe nota e il tag B */
+.nota b{
+    color: #000000;
+}
+/* zona dei pulsanti con link */
+nav{
+    background-color: #07551e;
+    color: white;
+    text-align: center;
+    position: sticky;
+}
+/* setto il tag nav,ul */
+nav ul{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Russo One', sans-serif;
+}
+/* setto il tag nav,ul,li */
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+/* setto il tag nav,ul,li,hover - passaggio del mouse */
+nav ul li:hover{
+    background-color: #e4e707;
+    font-weight: bold;
+}
+/* setto il tag nav,ul,li,a */
+nav ul li a{
+    color: #ff0000;
+    text-decoration: none;
+}
+/* setto la classe homeheader */
+.homeheader{
+    background-image: url(../images/contatti.png);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/* setto la classe labelbar */
+.labelbar{
+    color: white;
+    background-color: rgba(95, 99, 112, 0.5);
+    text-align: center;
+    padding: 19px;
+}
+/* setto la classe labelbar e il tag h3 */
+.labelbar h3{
+    margin: 2%;
+    color: red;
+}
+/* setto la classe tasto */
+.pulsante{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 200px;
+    padding: 15px;
+    margin: 10px;
+}
+/* setto la classe tasto,hover - passaggio del mouse */
+.pulsante:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: black;
+}
+/* setto la classe fa - social */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+/* setto la classe fa,hover - passaggio del mouse */
+  .fa:hover {
+    opacity: 0.7;
+}
+/* setto la classe fa - colore del social */
+/* github */
+.fa-github {
+background: #000000;
+color: white;
+}
+/* setto la classe fa - colore del social */
+/* youtube  */
+.fa-youtube {
+background: #fc0000;
+color: white;
+}
+/* setto la classe fa - colore del social */
+/* instagram */
+.fa-instagram {
+background: #3f729b;
+color: white;
+}
+/* setto la classe footer */
+footer {
+    text-align: center;
+    background-color: #214b61;
+    color: white;
+    padding: 15px;
+}
+/* setto la classe copyright */
+.copyright{
+    color: red;
+    background-color: #171616;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+/* versione mobile */
+#mobilemenu{
+    display: none;
+}

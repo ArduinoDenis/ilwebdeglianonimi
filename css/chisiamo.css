@@ -51,12 +51,6 @@ nav ul li a{
     color:red;
     text-decoration: none;
 }
-/* setto il id box*/
-#boxes{
-    text-align: center;
-    background-color: #275c66;
-    padding: 15px;
-}
 /* setto la classe ArduinoDenis */
 .ArduinoDenis{
     background-color: #4fa1b0;
@@ -75,6 +69,72 @@ nav ul li a{
 }
 /* setto la classe ArduinoDenis,hover - passaggio del mouse */
 .ArduinoDenis:hover{
+    -webkit-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe marisa */
+.marisa{
+    background-color: #4fa1b0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Russo One', sans-serif;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    -webkit-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe marisa,hover - passaggio del mouse */
+.marisa:hover{
+    -webkit-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe gianfraschio */
+.gianfraschio{
+    background-color: #4fa1b0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Russo One', sans-serif;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    -webkit-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe gianfraschio,hover - passaggio del mouse */
+.gianfraschio:hover{
+    -webkit-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe gianpiertolda */
+.gianpiertolda{
+    background-color: #4fa1b0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Russo One', sans-serif;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    -webkit-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 6px 0px rgba(0,0,0,0.75);
+}
+/* setto la classe gianpiertolda,hover - passaggio del mouse */
+.gianpiertolda:hover{
     -webkit-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);
     box-shadow: -2px 2px 12px 0px rgba(0,0,0,0.75);

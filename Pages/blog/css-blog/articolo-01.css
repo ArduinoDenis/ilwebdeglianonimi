@@ -1,0 +1,38 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-image: url(../images/sfondo1.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+/* setto il tag header - modifiche anche alla scritta il Blog Degli Anonimi */
+header{
+    background-color: #d8a20e;
+    color: #15ffe0;
+    padding: 3px;
+}
+/* setto due tipi di tag */
+header h2, header span{
+    display: inline-block;
+}
+/* setto la classe home */
+.home{
+    font-size: 200%;
+}
+/* setto la classe nota */
+.avviso{
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-size: 150%;
+}
+/* setto la classe avviso e il tag B */
+.avviso b{
+    color: #0127ff;
+}
